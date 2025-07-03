@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema Reservation App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="ekran"></div>
+      <div class="row">
+        <div class="koltuk seçilmiş"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk alınmış"></div>
+        <div class="koltuk alınmış"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk alınmış"></div>
+        <div class="koltuk alınmış"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+      <div class="row">
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+        <div class="koltuk"></div>
+      </div>
+    </div>
+
+    <div class="film-listesi">
+      <select name="" id="film">
+        <option disabled selected>Film seçiniz</option>
+        <option value="100">Avengers</option>
+        <option value="125">Usual Suspects</option>
+        <option value="130">Phone Booth</option>
+      </select>
+    </div>
+
+    <div class="hesap-bilgisi">
+      <p>Seçilen koltuk sayısı: <span id="sayı">0</span></p>
+      <p>Toplam tutar: <span id="miktar">0</span> TL</p>
+    </div>
+
+    <ul class="bilgi">
+      <li>
+        <div class="koltuk seçilmiş"></div>
+        <span>Seçili</span>
+      </li>
+      <li>
+        <div class="koltuk"></div>
+        <span>Boş</span>
+      </li>
+      <li>
+        <div class="koltuk alınmış"></div>
+        <span>Alınmış</span>
+      </li>
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
